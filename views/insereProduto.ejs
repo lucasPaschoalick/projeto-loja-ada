@@ -1,0 +1,36 @@
+<!-- views/addProduct.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adicionar Produto</title>  
+</head>
+<body>
+  <h1>Adicionar Produto</h1>
+  <form action="/" method="post">
+    <label for="codProduto">Codigo do Produto:</label>
+    <input type="text" id="codProduto" name="codProduto" required><br>
+
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required><br>
+
+    <label for="preco">Preço (R$):</label>
+    <input type="text" id="preco" name="preco" required><br>
+
+    <label for="marca">Marca:</label>
+    <input type="text" id="marca" name="marca" required><br>
+
+    <label for="modelo">Modelo:</label>
+    <input type="text" id="modelo" name="modelo" required><br>
+
+    <label for="categoria">Categoria:</label>
+    <input type="text" id="categoria" name="categoria" required><br>
+
+    <label for="descricao">Descrição:</label>
+    <textarea id="descricao" name="descricao" required></textarea><br>
+
+    <button type="submit">Adicionar Produto</button>
+  </form>
+</body>
+</html>

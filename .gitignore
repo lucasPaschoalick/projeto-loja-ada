@@ -1,0 +1,18 @@
+# Arquivos de log
+logs
+*.log
+
+# Diretório node_modules
+node_modules
+
+# Arquivo de configuração do SQLite
+db.sqlite
+
+# Arquivos de ambiente
+.env
+
+# Outros arquivos e diretórios específicos do sistema
+.DS_Store
+techStore.db
+
+db
